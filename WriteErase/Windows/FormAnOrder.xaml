@@ -14,7 +14,7 @@
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
 
-        <ListView Name="ProductLV" Grid.Row="0" Background="Transparent" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+        <ListView Name="ProductLV" Grid.Row="0" Background="Transparent" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" Margin="0,51,0,0">
             <ListView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <StackPanel/>
@@ -71,9 +71,9 @@
                 <RowDefinition Height="0.3*"/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Условия заказа" Grid.Row="0" HorizontalAlignment="Left" Margin="10 0 0 0" VerticalAlignment="Center" FontSize="20" FontFamily="comic sans ms"/>
+            <TextBlock Text="Условия заказа" Grid.Row="0" HorizontalAlignment="Left" Margin="-547,13,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="comic sans ms"/>
 
-            <StackPanel Grid.Row="1" Orientation="Vertical">
+            <StackPanel Orientation="Vertical" Margin="0,0,0,58" Grid.RowSpan="2">
                 <TextBlock Name="SumWithoutDiscountBox" Margin="10 10 0 0"/>
                 <TextBlock Name="SumWithDiscountBox" Margin="10 10 0 0"/>
                 <TextBlock Name="DiscountAmountBox" Margin="10 10 0 10"/>

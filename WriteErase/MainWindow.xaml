@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         ResizeMode="NoResize"
         Icon="/Resources/icon.ico"
-        Title="ООО «Пиши-стирай» - магазин по продаже канцелярских товаров" Height="450" Width="300">
+        Title="ООО «Пиши-стирай» - магазин по продаже канцелярских товаров" Height="400" Width="600">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>

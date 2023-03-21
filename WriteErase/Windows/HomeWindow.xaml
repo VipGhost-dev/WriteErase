@@ -26,7 +26,7 @@
                 <TextBlock Text="Пиши-стирай" HorizontalAlignment="Center" FontFamily="comic sans ms" FontSize="15"/>
             </StackPanel>
 
-            <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center">
+            <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Top">
                 <Button Content="Список товаров" Margin="5" Height="30" Name="ProductListBtn" Click="ProductListBtn_Click"/>
                 <Button Content="Список заказов" Margin="5" Height="30" Name="CartBtn" Click="CartBtn_Click"/>
             </StackPanel>

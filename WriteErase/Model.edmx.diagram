@@ -5,28 +5,28 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="ed723a3acfda4c93aa6ee44a5733df9d" Name="Diagram1">
-        <EntityTypeShape EntityType="practic13Model.Manufacturer" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.Order" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.OrderProduct" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.OrderStatus" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.PickupPoint" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.ProductCategory" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.Provider" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.Role" Width="1.5" PointX="1.5" PointY="21.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.Unit" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="practic13Model.User" Width="1.5" PointX="0.75" PointY="18.375" IsExpanded="true" />
-        <AssociationConnector Association="practic13Model.FK__Product__Product__123EB7A3" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__Order__OrderCust__1BC821DD" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__Order__OrderPick__1AD3FDA4" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__Order__OrderStat__19DFD96B" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__OrderProd__Order__07C12930" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__OrderProd__Produ__08B54D69" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__Product__Product__114A936A" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__Product__Product__1332DBDC" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__Product__Provide__14270015" ManuallyRouted="false" />
-        <AssociationConnector Association="practic13Model.FK__User__UserRole__01142BA1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="practic13Model.Manufacturer" Width="1.5" PointX="0.75" PointY="7.875" />
+        <EntityTypeShape EntityType="practic13Model.Order" Width="1.5" PointX="3" PointY="15.5" />
+        <EntityTypeShape EntityType="practic13Model.OrderProduct" Width="1.5" PointX="5.25" PointY="2.25" />
+        <EntityTypeShape EntityType="practic13Model.OrderStatus" Width="1.5" PointX="0.75" PointY="22.5" />
+        <EntityTypeShape EntityType="practic13Model.PickupPoint" Width="1.5" PointX="0.75" PointY="16.625" />
+        <EntityTypeShape EntityType="practic13Model.Product" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="practic13Model.ProductCategory" Width="1.5" PointX="0.75" PointY="10.25" />
+        <EntityTypeShape EntityType="practic13Model.Provider" Width="1.5" PointX="0.75" PointY="2.375" />
+        <EntityTypeShape EntityType="practic13Model.Role" Width="1.5" PointX="1.5" PointY="19.625" />
+        <EntityTypeShape EntityType="practic13Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.75" />
+        <EntityTypeShape EntityType="practic13Model.Unit" Width="1.5" PointX="0.75" PointY="5.5" />
+        <EntityTypeShape EntityType="practic13Model.User" Width="1.5" PointX="0.75" PointY="13.125" />
+        <AssociationConnector Association="practic13Model.FK__Product__Product__681373AD" />
+        <AssociationConnector Association="practic13Model.FK__Order__OrderCust__1BC821DD" />
+        <AssociationConnector Association="practic13Model.FK__Order__OrderPick__1AD3FDA4" />
+        <AssociationConnector Association="practic13Model.FK__Order__OrderStat__19DFD96B" />
+        <AssociationConnector Association="practic13Model.FK__OrderProd__Order__6CD828CA" />
+        <AssociationConnector Association="practic13Model.FK__OrderProd__Produ__6DCC4D03" />
+        <AssociationConnector Association="practic13Model.FK__Product__Product__671F4F74" />
+        <AssociationConnector Association="practic13Model.FK__Product__Product__690797E6" />
+        <AssociationConnector Association="practic13Model.FK__Product__Product__69FBBC1F" />
+        <AssociationConnector Association="practic13Model.FK__User__UserRole__01142BA1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
