@@ -29,7 +29,10 @@ namespace WriteErase.Pages
             SortBox.SelectedIndex = 0;
             FilterBox.SelectedIndex = 0;
         }
-
+        
+        /// <summary>
+        /// Обновление листа с заказами
+        /// </summary>
         void refreshList()
         {
             foreach (var item in ClassBase.BASE.Order.ToList())
@@ -50,6 +53,11 @@ namespace WriteErase.Pages
             }
         }
 
+        /// <summary>
+        /// Общая стоимость заказа
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TotalCostBox_Loaded(object sender, RoutedEventArgs e)
         {
             int id = Convert.ToInt32((sender as TextBlock).Uid);
@@ -62,6 +70,11 @@ namespace WriteErase.Pages
             (sender as TextBlock).Text = $"Общая сумма заказа: {totalSum} руб.";
         }
 
+        /// <summary>
+        /// Общая скидка
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TotalDiscountBox_Loaded(object sender, RoutedEventArgs e)
         {
             int id = Convert.ToInt32((sender as TextBlock).Uid);
@@ -74,6 +87,11 @@ namespace WriteErase.Pages
            (sender as TextBlock).Text = $"Сумма заказа со скидкой: {totalDiscount} руб.";
         }
 
+        /// <summary>
+        /// Заполнение поля авторизированного пользователя
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void UserNameBox_Loaded(object sender, RoutedEventArgs e)
         {
             int id = Convert.ToInt32((sender as TextBlock).Uid);
@@ -85,6 +103,11 @@ namespace WriteErase.Pages
                 (sender as TextBlock).Text = "Пользователь: Гость";
         }
 
+        /// <summary>
+        /// Заполнение листа заказа товарами
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OrderListLV_Loaded(object sender, RoutedEventArgs e)
         {
             int id = Convert.ToInt32((sender as ItemsControl).Uid);
@@ -120,6 +143,11 @@ namespace WriteErase.Pages
             }
         }
 
+        /// <summary>
+        /// Заполнение статуса заказа
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OrderStatusBox_Loaded(object sender, RoutedEventArgs e)
         {
             int id = Convert.ToInt32((sender as ComboBox).Uid);
@@ -130,6 +158,11 @@ namespace WriteErase.Pages
             (sender as ComboBox).SelectedValue = order.OrderStatus;
         }
 
+        /// <summary>
+        /// Изменение статуса заказа и сохранение
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OrderStatusBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int id = Convert.ToInt32((sender as ComboBox).Uid);

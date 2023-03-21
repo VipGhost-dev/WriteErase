@@ -33,6 +33,10 @@ namespace WriteErase.Windows
         Product product;
         bool isEditing = false;
 
+
+        /// <summary>
+        /// Выгрузка данных о товаре из базы и заполнение нужных полей
+        /// </summary>
         void uploadFileds()
         {
             ProductCategoryBox.ItemsSource = ClassBase.BASE.ProductCategory.ToList();

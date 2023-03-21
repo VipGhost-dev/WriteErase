@@ -37,6 +37,11 @@ namespace WriteErase
             this.Height = 300;
         }
 
+        /// <summary>
+        /// Таймер
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         void Timer_Tick(object sender, EventArgs e)
         {
             if (time != 0)
@@ -148,7 +153,9 @@ namespace WriteErase
                 MessageBox.Show("Поля логина и/или пароля пустые", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-
+        /// <summary>
+        /// Обновление капчи при повторно неправильно ведденых данных
+        /// </summary>
         void updateCapcha()
         {
             canvas.Children.Clear();
