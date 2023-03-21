@@ -57,7 +57,7 @@ namespace WriteErase
             }
         }
 
-        int attemptCount = 0;
+        int attemptCount = 0; // количество попыток ввода
         string str = "";
 
         private void EnterBtn_Click(object sender, RoutedEventArgs e)
